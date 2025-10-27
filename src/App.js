@@ -5,14 +5,14 @@ import Product from './components/Product'
 import Footer from './components/Footer'
 import {CartProvider, cartProvider} from 'react-use-cart'
 import Cart from './components/Cart.js'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <CartProvider>
       <Router>
           <div className="..App">
            
-            <Switch>
+            <Routes>
               <Route exact path="/">
                <Header/>
                 <div className="main-info" >
@@ -25,7 +25,7 @@ function App() {
               <Route path="/cart">
               <Cart/>
               </Route>
-            </Switch>
+            </Routes>
       
     </div>
         
