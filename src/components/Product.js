@@ -198,9 +198,9 @@ function  Product(){
               </div>
 
               <div className="flex-grow-1">
-                <h6 className="fw-bold mb-1">{product.name}</h6>
-                <p className="text-black small mb-1">{product.tech_name}</p>
-                <p className="text-black small mb-2"> * {product.rating}</p>
+                <h6 className="fw-bold mb-1 text-start">{product.name}</h6>
+                <p className="text-black small mb-1 text-start">{product.tech_name}</p>
+                <p className="text-black small mb-2 text-start"> * {product.rating}</p>
 
                 <div className="d-flex align-items-center mb-2">
                   <span className="dic-amount me-2">
@@ -213,9 +213,9 @@ function  Product(){
                   )}
                 </div>
 
-                <p className="text-secondary small mb-2">Sizes</p>
+                <p className="text-secondary small mb-2 text-start">Sizes</p>
 
-                <div className="d-flex flex-column flex-lg-row gap-2">
+                <div className="d-flex  flex-column flex-xl-row flex-wrap align-items-center gap-2 w-100">
                 <select className="form-select select-for">
                   <option>5KG</option>
                   <option>10KG</option>

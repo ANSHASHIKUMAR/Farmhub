@@ -50,6 +50,7 @@ body{
   height: 40px;
   width: 100%;
   pointer-events: none;
+  -webkit-appearance: none;
   background: none;
 }
 .range-container input[type="range"]::-webkit-slider-thumb {
