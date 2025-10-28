@@ -175,8 +175,12 @@ function  Product(){
           <p className="mb-0 me-2">Sort By:</p>
           <p className="fw-semibold mb-0 bg-light rounded px-3 py-2 d-flex align-items-center">
             <img src={arrow} alt="arrow" className="me-2" />
-            Most Relevant
-            <img src={down} alt="down" className="ms-2" />
+            <select className="rounded   bg-light p-1 border-light">
+            <option>Most Relevant</option>
+            <option>Low-High</option>
+            <option>High-Low</option>
+            <option>Popular</option>
+          </select>
           </p>
         </div>
       </div>

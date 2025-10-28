@@ -19,16 +19,16 @@ function Footer(){
            
             
         </div>
-        <div className='footer2'>
+        <div className='footer2 text-start'>
             <div className='footer3'> 
                 <p><img  src={logo} alt={logo}/></p>
                 <p>Empowering farmers with quality agricultural products and expert knowledge since 1987.</p>
                 <img src={social} alt={social}/>
             </div>
-            <div className="footer4">
-                <p>Products</p>
-                <ul>
-                    <li className=' align-item-center justify-content-center'><img src={arrow} alt={arrow} className="me-1" />Animal Nutrition</li>
+            <div className="footer4 ">
+                <p >Products</p>
+                <ul >
+                    <li ><img src={arrow} alt={arrow} className="me-1" />Animal Nutrition</li>
                     <li><img src={arrow} alt={arrow} className="me-1"/>Crop Care</li>
                     <li><img src={arrow} alt={arrow} className="me-1"/>Fertilizer</li>
                     <li><img src={arrow} alt={arrow} className="me-1"/>Nano Products</li>
@@ -37,7 +37,7 @@ function Footer(){
                 </ul>
             </div>
             
-            <div className="footer5">
+            <div className="footer5 ">
             <p>Quick Links</p>
             <ul className="footer8">
                 <li>Home</li>
@@ -49,7 +49,7 @@ function Footer(){
                 <li>Contact Us</li>
             </ul>
             </div>
-            <div className="footer6">
+            <div className="footer6 ">
                 <p>Our Services</p>
                 <ul>
                     <li>Crop Doctor Consultation</li>
@@ -58,10 +58,14 @@ function Footer(){
                     <li>Satellite based soil Insights</li>
                 </ul>
                 </div>
-            <div className="footer7">
+            <div className="footer7 ">
             <p>Contact US</p>
             <ul>
-                <li><img src={location} alt="location"className='contact-icon' />Prestige Ferozes, 3rd Floor, No.74, Cunningham Road, Bengaluru - 560052</li>
+                <li >
+                <img src={location} alt="location"className='contact-icon' />Prestige Ferozes, 3rd<br/>
+                    Floor, No.74, Cunningham Road,<br/>
+                    Bengaluru - 560052
+                </li>
                 <li> <img src={call} alt="calling"className='contact-icon'/>Call: 0987654321</li>
                 <li><img src={sms} alt="sms"className='contact-icon'/>Email : support@farmsapp.in</li>
             </ul>

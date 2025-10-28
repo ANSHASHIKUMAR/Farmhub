@@ -37,13 +37,12 @@ function Header() {
           </span>
         </div>
       </div>
-      <div className="Header-Middle container-fluid  py-3 ps-3 pe-4">
+      <div className="Header-Middle container-fluid   ps-3 pe-4  border-bottom">
         <div className="d-flex justify-content-between align-items-center">
           <img
             src={logo}
             alt="Logo"
-            style={{ width: "130px", height: "35px" }}
-            className="img-fluid"
+            className="img-fluid ms-1"
           />
           <div className="input-group d-none d-lg-flex input-group-sm  w-50">
           <input
@@ -56,8 +55,8 @@ function Header() {
             Search
           </button>
         </div>
-        <div className="d-flex align-items-center flex-wrap justify-content-end gap-1 gap-sm-2 text-end">
-          <Link to="/cart" className="d-flex align-items-center flex-wrap justify-content-end gap-1 gap-sm-2 text-end">
+        <div className="d-flex align-items-center flex-wrap justify-content-end  text-end">
+          <Link to="/cart" className="d-flex align-items-center flex-wrap justify-content-end text-end">
             <img src={icon1} alt="icon1" className="me-1  d-none d-lg-block" />
             <div className="position-relative">
               <img src={cartIcon} alt="cart"/>
@@ -71,7 +70,7 @@ function Header() {
               )}
             </div>
           </Link>
-          <img src={icon2} alt="icon2" className="me-1  img-icons" />
+          <img src={icon2} alt="icon2" className="me-1" />
           <div className="d-flex flex-column align-items-start lh-sm text-truncate ms-1">
             <span className="small fw-semibold d-flex align-items-center flex-wrap">
               Rohith Kumar
@@ -82,7 +81,7 @@ function Header() {
         </div>
       </div>
     </div>
-    <nav className="navbar  font-s navbar-expand-lg w-100 p-0 border-top border-bottom nav-bg-col">
+    <nav className="navbar  font-s navbar-expand-lg w-100 p-0   nav-bg-col">
       <div className="container-fluid">
         <div className="row d-lg-none align-items-center w-100 g-2 m-0 ">
           <div className="col-auto mt-0">
@@ -170,36 +169,36 @@ function Header() {
               ></button>
             </div>
             <div className="modal-body">
-              <div className="d-flex flex-column d-lg-none  pb-3">
-                    <p className="text-black border-bottom">Home</p>
-                    <p className="text-black  border-bottom">Products & Services</p>
-                    <p className="text-black  border-bottom">Our Stores</p>
-                    <p className="text-black  border-bottom">Blog</p>
-                    <p className="text-black  border-bottom">FAQ</p>
-                    <p className="text-black  border-bottom">Contact</p>
-                    <button className="btn-mobile btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm  ">
+              <div className="d-flex flex-column d-lg-none  pb-3 ">
+                    <p className="text-black border-bottom text-start" >Home</p>
+                    <p className="text-black  border-bottom text-start">Products & Services</p>
+                    <p className="text-black  border-bottom text-start">Our Stores</p>
+                    <p className="text-black  border-bottom text-start">Blog</p>
+                    <p className="text-black  border-bottom text-start">FAQ</p>
+                    <p className="text-black  border-bottom text-start">Contact</p>
+                    <button className=" btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm  ">
                   
                       <Icon4 alt="icon" width={20} className="me-2  " />
                     Corp Doctor Consultation
                     </button>
-                    <button className="btn-mobile btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm mb-3 mt-3">
+                    <button className=" btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm mb-3 mt-3">
                       <Icon5 alt="icon" width={20} className="me-2 " />
                       Product Enquiry
                     </button>
-                    <button className="btn-mobile btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm  ">
+                    <button className="btn btn-outline-success text-black d-flex align-items-center px-3 py-1 shadow-sm  ">
                       <img src={icon6} alt="icon" width={20} className="me-2" />
                       Get it on Google Play
                     </button>
-                    <p className="text-black mt-2 mb-2 border-bottom">Email: support@farmsapp.in</p>
-                    <p className="text-black mt-2 mb-2 border-bottom">Corporate Website</p>
-                    <p className="text-black mt-2 mb-2 border-bottom">Language: Kannada</p>
+                    <p className="text-black mt-2 mb-2 border-bottom text-start">Email: support@farmsapp.in</p>
+                    <p className="text-black mt-2 mb-2 border-bottom text-start">Corporate Website</p>
+                    <p className="text-black mt-2 mb-2 border-bottom text-start">Language: Kannada</p>
                   </div>
             </div>
           </div>
         </div>
       </div>
       <div className="head-bottom py-3 py-md-4 px-3 px-md-4 border-top">
-      <p className="head-p     fw-semibold  text-md-start">Specialty Plant Nutrients</p>
+      <p className="text-start    fw-semibold  ">Specialty Plant Nutrients</p>
           <div className="d-flex flex-wrap  justify-content-md-start ">
             <span className="me-1 head-span1">Home</span>
             <span className="fw-bold head-span1">&gt; Specialty Plant Nutrients</span>

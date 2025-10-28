@@ -24,6 +24,9 @@ body{
   height: 17px;
   border-color: black;
 }
+.form-select{
+  background-color: #F0F0F0;
+}
 .fil-btn{
     width:80px;
     height:30px;
@@ -36,6 +39,9 @@ body{
 }
 .text-size {
     font-size: 13px;
+}
+.most-relavent{
+  background-color: #F0F0F0;
 }
 .range-container {
   position: relative;
