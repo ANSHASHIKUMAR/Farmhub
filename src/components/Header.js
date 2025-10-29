@@ -82,11 +82,11 @@ function Header() {
       </div>
     </div>
     <nav className="navbar  font-s navbar-expand-lg w-100 p-0   nav-bg-col">
-      <div className="container-fluid">
-        <div className="row d-lg-none align-items-center w-100 g-2 m-0 ">
-          <div className="col-auto mt-0">
+      <div className="container-fluid ">
+        <div className="row d-lg-none w-100 g-2 m-0 ">
+          <div className="col-auto mt-0 ">
             <button
-              className="navbar-toggler border-0 shadow-sm p-1  "
+              className="navbar-toggler border-0  my-2 p-1  "
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#mobileMenuModal"
@@ -95,15 +95,15 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div className="col">
-            <div className="input-group  input-group-sm  w-100">
+          <div className="col ">
+            <div className="input-group  input-group-sm   w-100">
               <input
                 type="text"
                 className="form-control rounded-2"
                 placeholder="Search products..."
                 aria-label="Search"
               />
-              <button className="btn btn-success  rounded-1 ms-2" type="button">
+              <button className="btn search-btn  rounded-1 ms-2" type="button">
                 Search
               </button>
             </div>
@@ -197,7 +197,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="head-bottom py-3 py-md-4 px-3 px-md-4 border-top">
+      <div className="head-bottom  py-3 py-md-4 px-3 px-md-4 border-top">
       <p className="text-start    fw-semibold  ">Specialty Plant Nutrients</p>
           <div className="d-flex flex-wrap  justify-content-md-start ">
             <span className="me-1 head-span1">Home</span>

@@ -134,10 +134,10 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           </div>
           {showCropCare && (
             <div className="ps-3  text-start">
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Fungicide")} onChange={handleCheckboxChange} value="Fungicide"/>Fungicide</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Herbicide")} onChange={handleCheckboxChange} value="Herbicide"/>Herbicide</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Insecticide")} onChange={handleCheckboxChange} value="Insecticide"/>Insecticide</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Plant Growth")} onChange={handleCheckboxChange} value="Plant Growth"/>Plant Growth</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Fungicide")} onChange={handleCheckboxChange} value="Fungicide"/>Fungicide</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Herbicide")} onChange={handleCheckboxChange} value="Herbicide"/>Herbicide</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Insecticide")} onChange={handleCheckboxChange} value="Insecticide"/>Insecticide</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Plant Growth")} onChange={handleCheckboxChange} value="Plant Growth"/>Plant Growth</label></p></li>
             </div>
           )}
           <hr className="mt-0 mb-0"></hr>
@@ -150,8 +150,8 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           </div>
           {showNano && (
             <div className="ps-3 text-start">
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("NAno DAP")} onChange={handleCheckboxChange} value="Nano DAP"/> Nano DAP</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Nano Urea")} onChange={handleCheckboxChange} value="Nano"/>Nano Urea</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Nano DAP")} onChange={handleCheckboxChange} value="Nano DAP"/> Nano DAP</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Nano Urea")} onChange={handleCheckboxChange} value="Nano Urea"/>Nano Urea</label></p></li>
             </div>
           )}
           <hr className="mt-0 mb-0"></hr>
@@ -164,11 +164,11 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           </div>
           {showNutrients && (
             <div className="ps-3 text-start">
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Organics")} onChange={handleCheckboxChange} value="Organics"/> Organics</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("WSF")} onChange={handleCheckboxChange} value="WSF"/>WSF</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Micronutrient")} onChange={handleCheckboxChange} value="Micronutrient"/> Micronutrient</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Soil Condition")} onChange={handleCheckboxChange} value="Soil Condition"/> Soil Condition</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Specialty Liquids")} onChange={handleCheckboxChange} value="Specialty Liquids"/>Specialty Liquids</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Organics")} onChange={handleCheckboxChange} value="Organics"/> Organics</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("WSF")} onChange={handleCheckboxChange} value="WSF"/>WSF</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Micronutrient")} onChange={handleCheckboxChange} value="Micronutrient"/> Micronutrient</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Soil Condition")} onChange={handleCheckboxChange} value="Soil Condition"/> Soil Condition</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Specialty Liquids")} onChange={handleCheckboxChange} value="Specialty Liquids"/>Specialty Liquids</label></p></li>
             </div>
           )}
           <hr className="mt-0 mb-0"></hr>
@@ -196,12 +196,12 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           </div>
           {showFarming && (
             <div className="ps-3 text-start">
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Drip")} onChange={handleCheckboxChange} value="Drip" /> Drip</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Mulching Sheet")} onChange={handleCheckboxChange} value="Mulching Sheet"/>Mulching Sheet</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("SE")} onChange={handleCheckboxChange} value="SE"/>SE</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Small Equipment")} onChange={handleCheckboxChange} value="Small Equipment"/> Small Equipment</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Sprayers")} onChange={handleCheckboxChange} value="Sprayers"/> Sprayers</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Tools")} onChange={handleCheckboxChange} value="Tools"/> Tools</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Drip")} onChange={handleCheckboxChange} value="Drip" /> Drip</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Mulching Sheet")} onChange={handleCheckboxChange} value="Mulching Sheet"/>Mulching Sheet</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("SE")} onChange={handleCheckboxChange} value="SE"/>SE</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Small Equipment")} onChange={handleCheckboxChange} value="Small Equipment"/> Small Equipment</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Sprayers")} onChange={handleCheckboxChange} value="Sprayers"/> Sprayers</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Tools")} onChange={handleCheckboxChange} value="Tools"/> Tools</label></p></li>
             </div>
           )}
             <hr className="mt-0 mb-0"></hr>
@@ -214,8 +214,8 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           </div>
           {showShop && (
             <div className="ps-3 text-start">
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Ash Gourd")} onChange={handleCheckboxChange} value="Ash Gourd"/>Ash Gourd</label></p></li>
-              <li><p><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Peas")} onChange={handleCheckboxChange} value="Peas"/>Peas</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Ash Gourd")} onChange={handleCheckboxChange} value="Ash Gourd"/>Ash Gourd</label></p></li>
+              <li><p><label><input type="checkbox" className="form-check-input me-2 custom-round" checked={selectedOptions.includes("Peas")} onChange={handleCheckboxChange} value="Peas"/>Peas</label></p></li>
             </div>
           )}
           <hr className="mt-0 mb-0"></hr>
@@ -229,19 +229,19 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           {showDis && (
             <div className="ps-3">
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Discounts 10%")} onChange={handleCheckboxChange} value="Discount 10%"/>Discounts 10%</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Discounts 10%")} onChange={handleCheckboxChange} value="Discounts 10%"/>Discounts 10%</label></p>
                 <p className="pe-2">6</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Discount 20%")} onChange={handleCheckboxChange} value="Discount 20%"/>Discounts 20%</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Discounts 20%")} onChange={handleCheckboxChange} value="Discounts 20%"/>Discounts 20%</label></p>
                 <p className="pe-2">12</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Discount 30%")} onChange={handleCheckboxChange} value="Discount 30%"/>Discounts 30%</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Discounts 30%")} onChange={handleCheckboxChange} value="Discounts 30%"/>Discounts 30%</label></p>
                 <p className="pe-2">91</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Discounts 40%")} onChange={handleCheckboxChange} value="Discounts 40%"/>Discounts 40%</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Discounts 40%")} onChange={handleCheckboxChange} value="Discounts 40%"/>Discounts 40%</label></p>
                 <p className="pe-2">102</p>
               </li>
             </div>
@@ -257,23 +257,23 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           {showCustom && (
             <div className="ps-3">
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("5 *")} onChange={handleCheckboxChange} value="5 *"/>5 *</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("5 *")} onChange={handleCheckboxChange} value="5 *"/>5 *</label></p>
                 <p className="pe-2">6</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("4 * & Above")} onChange={handleCheckboxChange} value="4 * & Above"/>4 * & Above</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("4 * & Above")} onChange={handleCheckboxChange} value="4 * & Above"/>4 * & Above</label></p>
                 <p className="pe-2">12</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("3 * & Above")} onChange={handleCheckboxChange} value="3 * & Above"/>3 * & Above</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("3 * & Above")} onChange={handleCheckboxChange} value="3 * & Above"/>3 * & Above</label></p>
                 <p className="pe-2">91</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("2 * & Above")} onChange={handleCheckboxChange} value="2 * & Above" />2 * & Above</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("2 * & Above")} onChange={handleCheckboxChange} value="2 * & Above" />2 * & Above</label></p>
                 <p className="pe-2">102</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("1 * & Above")} onChange={handleCheckboxChange} value="1 * & Above"/>1 * & Above</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("1 * & Above")} onChange={handleCheckboxChange} value="1 * & Above"/>1 * & Above</label></p>
                 <p className="pe-2">102</p>
               </li>
             </div>
@@ -289,15 +289,15 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           {showDelivery && (
             <div className="ps-3">
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Home Delivery")} onChange={handleCheckboxChange} value="Home Delivery"/>Home Delivery</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Home Delivery")} onChange={handleCheckboxChange} value="Home Delivery"/>Home Delivery</label></p>
                 <p className="pe-2">6</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Store Pickup")} onChange={handleCheckboxChange} value="Store Pickup"/>Store Pickup</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className="form-check-input  me-2 custom-round" checked={selectedOptions.includes("Store Pickup")} onChange={handleCheckboxChange} value="Store Pickup"/>Store Pickup</label></p>
                 <p className="pe-2">6</p>
               </li>
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input rounded-circle me-2 custom-round"  checked={selectedOptions.includes("Both")} onChange={handleCheckboxChange} value="Both"/>Both</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round"  checked={selectedOptions.includes("Both")} onChange={handleCheckboxChange} value="Both"/>Both</label></p>
                 <p className="pe-2">6</p>
               </li>
             </div>
@@ -313,7 +313,7 @@ const SidebarContent = ({showFilter,setShowFilter,handleSubmit,appliedFilters,re
           {showDelMode && (
             <div className="ps-3">
               <li className="li-dis">
-                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className=" form-check-input rounded-circle me-2 custom-round" checked={selectedOptions.includes("Include out of stocks")} onChange={handleCheckboxChange} value="Include out of stocks"/>Include out of Stock</label></p>
+                <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox"  className=" form-check-input  me-2 custom-round" checked={selectedOptions.includes("Include out of stocks")} onChange={handleCheckboxChange} value="Include out of stocks"/>Include out of Stock</label></p>
                 <p className="pe-2">6</p>
               </li>
             </div>
@@ -412,9 +412,9 @@ const Sidebar = () => {
   
   return (
     <>
-      <p className="d-md-none mb-2 mt-2 d-flex justify-content-between align-items-center mx-2 ms-2">
+      <p className="d-md-none  mb-2 mt-2 d-flex justify-content-between align-items-center mx-3 ">
         <button
-          className="btn btn-info text-black bg d-flex align-items-center fil-btn"
+          className="btn  text-black  d-flex align-items-center fil-btn"
           type="button"
           data-bs-toggle="modal"
           data-bs-target="#mobileMenuModal2"
