@@ -17,7 +17,7 @@ function Header() {
   const { totalItems } = useCart();
 
   return (
-    <div className="container-fluid p-0 shadow-sm">
+    <div className="container-fluid p-0">
       <div className="Header-Top d-none d-lg-flex justify-content-between align-items-center px-4 py-3 border-bottom">
         <div className="d-flex align-items-center">
           <img src={sms} alt="sms" className="me-2" />
@@ -197,7 +197,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="head-bottom  py-3 py-md-4 px-3 px-md-4 border-top">
+      <div className="head-bottom rounded py-3 py-md-4 px-3 px-md-4 border-top">
       <p className="text-start    fw-semibold  ">Specialty Plant Nutrients</p>
           <div className="d-flex flex-wrap  justify-content-md-start ">
             <span className="me-1 head-span1">Home</span>
