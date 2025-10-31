@@ -8,7 +8,9 @@ const Checklist = ({ handleCheckboxChange, showCropCare, selectedOptions, showNa
             <input type="checkbox" className="form-check-input me-2 custom-round" checked={checked}
               onChange={handleCheckboxChange} value={displayName} />{displayName}</label>
         </p>
+        <hr className="mt-0 mb-0"></hr>
       </li>
+      
     )
   }
 

@@ -2,10 +2,14 @@ import React from 'react'
 const ChecklistValue = ({ handleCheckboxChange, discount, val, checked, selectedOptions, showDis, showCustom, showDelivery, showDelMode }) => {
     const BetCommonName = ({ discount, val, checked }) => {
         return (
+            <>
             <li className="li-dis">
                 <p className="d-flex justify-content-center align-item-center"><label><input type="checkbox" className="form-check-input  me-2 custom-round" checked={checked} onChange={handleCheckboxChange} value={discount} />{discount}</label></p>
                 <p className="pe-2">{val}</p>
             </li>
+            <hr className="mt-0 mb-0"></hr>
+            </>
+            
         )
     }
     return (

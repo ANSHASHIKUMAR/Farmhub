@@ -90,34 +90,23 @@ const SidebarContent = () => {
         <ul className="list-unstyled mt-2 ">
           <Headings headingName="Crop Care" isOpen={showCropCare} setIsOpen={setshowCropCare} />
           <Checklist handleCheckboxChange={handleCheckboxChange} showCropCare={showCropCare} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Nano Products"  isOpen={showNano} setIsOpen={setshowNano}/>
           <Checklist handleCheckboxChange={handleCheckboxChange} showNano={showNano} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Specialty Plant Nutrients"  isOpen={showNutrients} setIsOpen={setShowNutrients}/>
           <Checklist handleCheckboxChange={handleCheckboxChange} showNutrients={showNutrients} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <ListValues listName={"Seeds"} key={"Seeds"} />
-          <hr className="mt-0 mb-0"></hr>
           <ListValues listName={"Animal Nutrition"} key={"Animal Nutrition"}/> 
-          <hr className="mt-0 mb-0"></hr>
           <ListValues listName={"Fertilizer"} key={"Fertilizer"}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Farming Equipment"  isOpen={showFarming} setIsOpen={setShowFarming}/>
           <Checklist handleCheckboxChange={handleCheckboxChange} showFarming={showFarming} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Shop by Crops"  isOpen={showShop} setIsOpen={setShowShop}/>
           <Checklist handleCheckboxChange={handleCheckboxChange} showShop={showShop} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Discounts"  isOpen={showDis} setIsOpen={setShowDis}/>
           <ChecklistValue handleCheckboxChange={handleCheckboxChange} showDis={showDis} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName="Customer Ratings"  isOpen={showCustom} setIsOpen={setShowCustom}/>
           <ChecklistValue handleCheckboxChange={handleCheckboxChange} showCustom={showCustom} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName={"Delivery Mode"} isOpen={showDelivery} setIsOpen={setShowDelivery}/>
           <ChecklistValue handleCheckboxChange={handleCheckboxChange} showDelivery={showDelivery} selectedOptions={selectedOptions}/>
-          <hr className="mt-0 mb-0"></hr>
           <Headings headingName={"Availability"} isOpen={showDelMode} setIsOpen={setShowDelMode}/>
           <ChecklistValue handleCheckboxChange={handleCheckboxChange} showDelMode={showDelMode} selectedOptions={selectedOptions}/>
         </ul>
