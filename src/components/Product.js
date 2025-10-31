@@ -1,7 +1,6 @@
 import React from 'react';
-import down from '../images/arrow-down.svg'
-import './Product.css'
-import arrow from '../images/arrow-3.svg'
+import {useCart} from 'react-use-cart';
+import arrow from '../images/arrow.svg'
 import img1 from '../images/image-1.svg'
 import img2 from '../images/image-2.svg'
 import img3 from '../images/image-3.svg'
@@ -12,9 +11,10 @@ import img7 from '../images/image-7.svg'
 import img8 from '../images/image-8.svg'
 import img9 from '../images/image-9.svg'
 import img10 from '../images/image-10.svg'
-import img12 from '../images/image-12.svg'
 import img11 from '../images/image-11.svg'
-import {useCart} from 'react-use-cart';
+import img12 from '../images/image-12.svg'
+import './Product.css'
+
 
 function  Product(){
   const {addItem, updateItemQuantity, getItem} = useCart();

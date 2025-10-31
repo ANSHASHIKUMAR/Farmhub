@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.css'
 import logo from '../images/Logo.svg'
-import social from '../images/Social Media Icons.svg'
+import social_media_icons from '../images/Social_Media_Icons.svg'
 import location from'../images/location.svg'
-import call from '../images/call-calling.svg'
-import sms from '../images/sms (1).svg'
-import arrow from '../images/arrow-right (1).svg'
+import call_icon from '../images/calling_icon.svg'
+import mail_icon from '../images/mail_icon.svg'
+import arrow from '../images/arrow.svg'
 function Footer(){
     return(
     <div className='Main-footer'>
@@ -15,15 +15,13 @@ function Footer(){
             <div className='footer11'>
             <input type="text" placeholder='Enter mobile number'/>
             <button >Submit</button>
-            </div>
-           
-            
+            </div> 
         </div>
         <div className='footer2 text-start'>
             <div className='footer3'> 
                 <p><img  src={logo} alt={logo}/></p>
                 <p>Empowering farmers with quality agricultural products and expert knowledge since 1987.</p>
-                <img src={social} alt={social}/>
+                <img src={social_media_icons} alt={social_media_icons}/>
             </div>
             <div className="footer4 ">
                 <p >Products</p>
@@ -66,8 +64,8 @@ function Footer(){
                     Floor, No.74, Cunningham Road,<br/>
                     Bengaluru - 560052
                 </li>
-                <li> <img src={call} alt="calling"className='contact-icon'/>Call: 0987654321</li>
-                <li><img src={sms} alt="sms"className='contact-icon'/>Email : support@farmsapp.in</li>
+                <li> <img src={call_icon} alt="call_icon"className='contact-icon'/>Call: 0987654321</li>
+                <li><img src={mail_icon} alt="mail_icon"className='contact-icon'/>Email : support@farmsapp.in</li>
             </ul>
             </div>
         </div>
