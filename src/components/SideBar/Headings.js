@@ -11,7 +11,7 @@ const Headings = ({ headingName, isOpen, setIsOpen }) => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <li className="fw-bold mb-2 ">{headingName}</li>
-          <img src={isOpen ? minus : add} alt="add" />
+          <img src={isOpen ? minus: add} alt="add" />
         </div>
         <hr className="mt-0 mb-0"></hr>
       </ul>
